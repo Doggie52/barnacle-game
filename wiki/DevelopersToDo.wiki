@@ -3,7 +3,7 @@
 
 = `doggie52` =
  * Remove `bin` and `gen` from the repository by means of `svn:ignore`-ing them.
- *
+ * Re-add `.project` and `.classpath` to the repository as these are needed to build the project.
 
 = `woxxey` =
  *
