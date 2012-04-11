@@ -32,8 +32,7 @@ public class BarnacleGameActivity extends Activity
 		setContentView( R.layout.main );
 
 		sensorManager = (SensorManager) getSystemService( Context.SENSOR_SERVICE );
-		sensor = sensorManager.getSensorList( Sensor.TYPE_ACCELEROMETER ).get(
-				0 );
+		sensor = sensorManager.getSensorList( Sensor.TYPE_ACCELEROMETER ).get( 0 );
 	}
 
 	/**
@@ -43,8 +42,7 @@ public class BarnacleGameActivity extends Activity
 	protected void onResume()
 	{
 		super.onResume();
-		sensorManager.registerListener( accelerationListener, sensor,
-				SensorManager.SENSOR_DELAY_GAME );
+		sensorManager.registerListener( accelerationListener, sensor, SensorManager.SENSOR_DELAY_GAME );
 	}
 
 	/**
