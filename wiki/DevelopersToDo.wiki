@@ -1,0 +1,15 @@
+#summary The combined to-do list for all developers on this project.
+#labels Phase-Implementation
+
+= `doggie52` =
+ * Remove `bin` and `gen` from the repository by means of `svn:ignore`-ing them.
+ *
+
+= `woxxey` =
+ *
+
+= `steba92` =
+ *
+
+= `honnator` =
+ *
